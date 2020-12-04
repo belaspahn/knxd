@@ -26,7 +26,7 @@ dnl ##    SUCH DAMAGE.
 AC_PREREQ([2.59])
 LT_PREREQ([2.2.0])
 
-AC_INIT(knxd, m4_esyscmd(sh -c "./tools/version.sh | tr -d '\n'"))
+AC_INIT(knxd, [0.14.39])
 AM_INIT_AUTOMAKE([foreign])
 LT_INIT
 
